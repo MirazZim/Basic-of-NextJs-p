@@ -25,7 +25,7 @@ export default function ServicesPage() {
 
     return (
         <div className='h-screen h-max-[800px] '>
-            <h1 className='text-6xl mb-10 mt-10 flex justify-center items-center'>Services</h1>
+            <h1 className='text-6xl mb-10 mt-10 flex justify-center items-center'>Players</h1>
             <div className="flex gap-10 justify-evenly">
                 {data.map((d) => {
                     return (
